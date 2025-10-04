@@ -51,7 +51,7 @@ public class UserServiceTest {
         checkPassword = "12345678";
         result = userService.userRegister(userAccount, userPassword, checkPassword);
         Assertions.assertEquals(-1, result);
-        userAccount = "testYupi";
+        userAccount = "123";
         userPassword = "12345678";
         result = userService.userRegister(userAccount, userPassword, checkPassword);
         Assertions.assertEquals(-1, result);
